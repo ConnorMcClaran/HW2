@@ -58,17 +58,17 @@ public class ShellSortCount {
         ShellSortCount.shellsort(x);
         ShellSortCount.show(x);
 
-        double[] x = arrayBuilder(100);
+        double[] y = arrayBuilder(100);
 
-        ShellSortCount.show(x);
-        ShellSortCount.shellsort(x);
-        ShellSortCount.show(x);
+        ShellSortCount.show(y);
+        ShellSortCount.shellsort(y);
+        ShellSortCount.show(y);
 
-        double[] x = arrayBuilder(1000);
+        double[] z = arrayBuilder(1000);
 
-        ShellSortCount.show(x);
-        ShellSortCount.shellsort(x);
-        ShellSortCount.show(x);
+        ShellSortCount.show(z);
+        ShellSortCount.shellsort(z);
+        ShellSortCount.show(z);
 
 
 
