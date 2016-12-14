@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created by mcclarci on 11/15/2016.
+ * Creates Linked list and then sorts it with mergesort
  */
 
 
@@ -46,7 +47,7 @@ class LinkList
     }
 
     public void display()
-    {//Displays the linked list
+    {
 
         System.out.println("List: ");
         Node current = first;
@@ -64,7 +65,7 @@ class LinkList
 
 
     public Node mergeSort(Node head)
-    {//mergeSort method
+    {
 
         if (head == null || head.next == null)
         {
